@@ -21,8 +21,7 @@ while True:
 		reddit.subreddit("festus8070").mod.update(all_original_content="false")
 		reddit.subreddit("festus8070").mod.update(link_type="any")
 
-	#day = (date.today().weekday())+1
-	day = 6
+	day = (date.today().weekday())+1
 	print(day)
 	if olddate == day:
 		print("No change")
